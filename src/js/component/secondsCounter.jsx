@@ -1,6 +1,6 @@
 import React from "react";
 
-const SimpleCounter = (props)=>{
+const SecondsCounter = (props)=>{
 
     const { digitOne, digitTwo, digitThree, digitFour, digitFive, digitSix } = props.timer
 
@@ -21,4 +21,4 @@ const SimpleCounter = (props)=>{
     )
 }
 
-export default SimpleCounter;
+export default SecondsCounter;

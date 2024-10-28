@@ -1,5 +1,5 @@
 import React from "react";
-import SimpleCounter from "./simple_counter";
+import SecondsCounter from "./secondsCounter";
 
 const timer = [{
 	digitOne:0,
@@ -8,15 +8,15 @@ const timer = [{
 	digitFour:0,
 	digitFive:0,
 	digitSix:0
-}
-]
+}]
+
 
 
 //create your first component
 const Home = () => {
 	return (
 		<>
-		{timer.map((atribute, index) => (<SimpleCounter key={index} timer={atribute} />))}
+		{timer.map((atribute, index) => (<SecondsCounter key={index} timer={atribute} />))}
 		</>
 	);
 };
