@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondsCounter = (props)=>{
 
-    const { digitOne, digitTwo, digitThree, digitFour, digitFive, digitSix } = props.timer
+    const { digitOne, digitTwo, digitThree, digitFour, digitFive, digitSix } = props
 
     return(
         <>
